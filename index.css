@@ -1,0 +1,66 @@
+body {
+    font-family: Lato;
+    margin-left:auto;margin-right:auto;
+	background-color: #f7e7fd
+}
+#header {
+    background: rgb(255, 204, 204); 
+    background: -moz-linear-gradient(-45deg, rgba(255, 204, 204) 0%, rgba(255, 204, 204) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(255, 204, 204) 0%,rgba(255, 204, 204) 100%);
+    background: linear-gradient(135deg, rgba(255, 204, 204) 0%,rgba(255, 204, 204) 100%);
+    color: #0400ff; /* colore testo */
+	font-size: 2vw;
+	font-family: nft;
+}
+.projectbox {
+    width: 90%;
+    border-width: 1.5vw;
+    padding: 2vw; /* spazio tra bordo e testo */
+	background-color: #ffeccc; /* colore interno */
+    border-style: solid;
+    border-color: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin-bottom: 10px;
+    word-break: break-word;
+	font-family: nft;
+	font-size: 1.5vw
+}
+
+.aligncenter {
+  margin-top: 2.5vw;
+  float: left;
+  width:38.33333%;
+  text-align:center;
+}
+
+.alignright {
+  float: right;
+  width:38.33333%;
+  text-align:center;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+h2 {
+    font-size: 1.8vw;
+}
+img {
+    padding: 0;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@font-face {
+  font-family: nft;
+  src: url('nft.ttf');
+}
+
+@font-face {
+  font-family: nft2;
+  src: url('nft2.ttf');
+}
